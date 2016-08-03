@@ -1,1 +1,1 @@
-web: gunicorn core:app --log-file -
+web: gunicorn coreblog.wsgi
